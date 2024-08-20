@@ -1,0 +1,20 @@
+current directory: C:/Users/yoonmi/OneDrive - University of Nebraska-Lincoln/github/ychoi6.github.io/jekyll-gitbook-master/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+C:/Ruby33-x64/bin/ruby.exe extconf.rb
+creating Makefile
+
+current directory: C:/Users/yoonmi/OneDrive - University of Nebraska-Lincoln/github/ychoi6.github.io/jekyll-gitbook-master/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240819-1812-njk6t8 sitelibdir\=./.gem.20240819-1812-njk6t8 clean
+
+current directory: C:/Users/yoonmi/OneDrive - University of Nebraska-Lincoln/github/ychoi6.github.io/jekyll-gitbook-master/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240819-1812-njk6t8 sitelibdir\=./.gem.20240819-1812-njk6t8
+generating fastfilereaderext-x64-mingw-ucrt.def
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: C:/Users/yoonmi/OneDrive - University of Nebraska-Lincoln/github/ychoi6.github.io/jekyll-gitbook-master/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240819-1812-njk6t8 sitelibdir\=./.gem.20240819-1812-njk6t8 install
+/usr/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20240819-1812-njk6t8
+
+current directory: C:/Users/yoonmi/OneDrive - University of Nebraska-Lincoln/github/ychoi6.github.io/jekyll-gitbook-master/vendor/bundle/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20240819-1812-njk6t8 sitelibdir\=./.gem.20240819-1812-njk6t8 clean
