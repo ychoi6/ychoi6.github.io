@@ -24,10 +24,27 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    ffi (1.17.0)
+    ffi (1.17.0-aarch64-linux-gnu)
+    ffi (1.17.0-arm-linux-gnu)
     ffi (1.17.0-x64-mingw-ucrt)
+    ffi (1.17.0-x86-linux-gnu)
+    ffi (1.17.0-x86_64-linux-gnu)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
+    google-protobuf (4.27.3)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.27.3-aarch64-linux)
+      bigdecimal
+      rake (>= 13)
     google-protobuf (4.27.3-x64-mingw-ucrt)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.27.3-x86-linux)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.27.3-x86_64-linux)
       bigdecimal
       rake (>= 13)
     html-pipeline (2.14.3)
@@ -74,8 +91,20 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     logger (1.6.0)
     mercenary (0.4.0)
+    mini_portile2 (2.8.7)
     minitest (5.25.1)
+    nokogiri (1.16.7)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
+    nokogiri (1.16.7-aarch64-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.7-arm-linux)
+      racc (~> 1.4)
     nokogiri (1.16.7-x64-mingw-ucrt)
+      racc (~> 1.4)
+    nokogiri (1.16.7-x86-linux)
+      racc (~> 1.4)
+    nokogiri (1.16.7-x86_64-linux)
       racc (~> 1.4)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
@@ -89,7 +118,20 @@ GEM
       strscan
     rouge (4.3.0)
     safe_yaml (1.0.5)
+    sass-embedded (1.77.8)
+      google-protobuf (~> 4.26)
+      rake (>= 13)
+    sass-embedded (1.77.8-aarch64-linux-gnu)
+      google-protobuf (~> 4.26)
+    sass-embedded (1.77.8-arm-linux-gnueabihf)
+      google-protobuf (~> 4.26)
+    sass-embedded (1.77.8-riscv64-linux-gnu)
+      google-protobuf (~> 4.26)
     sass-embedded (1.77.8-x64-mingw-ucrt)
+      google-protobuf (~> 4.26)
+    sass-embedded (1.77.8-x86-linux-gnu)
+      google-protobuf (~> 4.26)
+    sass-embedded (1.77.8-x86_64-linux-gnu)
       google-protobuf (~> 4.26)
     securerandom (0.3.1)
     strscan (3.1.0)
@@ -103,6 +145,8 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  linux
+  ruby
   x64-mingw-ucrt
 
 DEPENDENCIES
