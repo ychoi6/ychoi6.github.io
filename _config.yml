@@ -47,6 +47,7 @@ permalink:                /:categories/:year-:month-:day-:title:output_ext
 # disqushandler:            sighingnow
 
 exclude:
+  - [vendor]
   - _drafts
 
 collections:
