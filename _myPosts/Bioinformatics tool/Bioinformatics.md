@@ -1,6 +1,5 @@
 ---
 title: Bioinformatics
-permalink: /Bioinformatics
 tag: 
 layout: post
 author: Yoonmi Choi

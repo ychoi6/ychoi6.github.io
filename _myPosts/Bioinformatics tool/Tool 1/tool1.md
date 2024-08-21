@@ -1,6 +1,5 @@
 ---
 title: Tool1
-permalink: /Bioinformatics/Tool1
 tag: 
 layout: post
 author: Yoonmi Choi
