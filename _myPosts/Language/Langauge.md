@@ -5,10 +5,14 @@ layout: post
 author: Yoonmi Choi
 published: true
 ---
-# Python
-
-## Syntax
 
 
+Python
+--------------------------------------
 
-# Unix
+### Syntax
+
+
+
+Unix
+---------------------------------------
