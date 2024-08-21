@@ -1,6 +1,6 @@
 ---
-title: 
-permalink: /
+title: Unix
+permalink: /Language/Unix
 tag: 
 layout: post
 author: Yoonmi Choi

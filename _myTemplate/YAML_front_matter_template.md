@@ -4,9 +4,21 @@ permalink: /
 tag: 
 layout: post
 author: Yoonmi Choi
-date: 2024-00-00
 published: true
+has_children: true
 ---
+
+---
+title: 
+permalink: /
+tag: 
+layout: post
+author: Yoonmi Choi
+published: true
+parent: title of parent file
+grand_parent: title of parent file
+---
+
 
 # How to write posts
 https://jekyllrb.com/docs/posts/
