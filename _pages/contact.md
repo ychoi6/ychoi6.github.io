@@ -1,9 +1,11 @@
 ---
 title: Contact
-author: Tao He
-date: 2022-02-05
-category: Jekyll
+author: Yoonmi Choi
+date: 2024-08-21
 layout: post
 ---
-
-This is an contact page.
+Author: Yoonmi Choi
+Email: ychoi6@huskers.unl.edu
+Affiliation: Ph.D. student at BSE, University of Nebraksa - Lincoln
+Supervisor: Dr. Hyun-Seob Song
+Lab: https://cms.unl.edu/engineering/song-lab/ 
