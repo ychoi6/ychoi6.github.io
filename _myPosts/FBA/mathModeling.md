@@ -1,14 +1,14 @@
 ---
-title: Bioinformatics
+title: Mathmatical modeling
 tag: 
 layout: post
 author: Yoonmi Choi
 published: true
+parent: FBA
 ---
 
 
-
-Qimme
+FBA
 -----------------------
 # Concept
 
@@ -17,9 +17,7 @@ Qimme
 
 
 
-NetCom
+FVA
 -----------------------
 
-# Concept
-
-# code
+# EMF
