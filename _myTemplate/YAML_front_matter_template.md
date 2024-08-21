@@ -1,6 +1,7 @@
 ---
 title: 
 permalink: /
+tag: 
 layout: post
 author: Yoonmi Choi
 date: 2024-00-00
@@ -29,3 +30,7 @@ https://jekyllrb.com/docs/posts/
     </li>
   {% endfor %}
 </ul>
+
+# Post URL
+{% post_url 2010-07-21-name-of-post %}
+[Name of Link]({% post_url 2010-07-21-name-of-post %})
