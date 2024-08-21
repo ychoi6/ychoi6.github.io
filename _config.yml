@@ -51,6 +51,9 @@ exclude:
   - _drafts
 
 collections:
+  myPosts:
+    output: true
+    permalink: /:collection/:path/
   pages:
     output: true
     permalink: /:collection/:path/
@@ -59,9 +62,9 @@ collections:
     permalink: /:collection/:path/
 
 ordered_collections:
-  - posts
+  - myPosts
   - pages
-  - others
+
 
 page_width: 800px
 
