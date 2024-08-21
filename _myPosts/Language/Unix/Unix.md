@@ -1,8 +1,9 @@
 ---
 title: Unix
-permalink: /Language/Unix
 tag: 
 layout: post
 author: Yoonmi Choi
 published: true
+parent: Unix
+grand_parent: Language
 ---
