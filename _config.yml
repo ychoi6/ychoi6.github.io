@@ -51,7 +51,16 @@ exclude:
   - _drafts
 
 collections:
-  myPosts:
+  _Bioinformatics:
+    output: true
+    permalink: /:collection/:path/
+  _Biology:
+    output: true
+    permalink: /:collection/:path/
+  _Modeling:
+    output: true
+    permalink: /:collection/:path/
+  _Programming:
     output: true
     permalink: /:collection/:path/
   pages:
@@ -62,7 +71,10 @@ collections:
     permalink: /:collection/:path/
 
 ordered_collections:
-  - myPosts
+  - Bioinformatics
+  - Biology
+  - Modeling
+  - Programming
   - pages
 
 
