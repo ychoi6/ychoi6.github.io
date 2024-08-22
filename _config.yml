@@ -51,16 +51,16 @@ exclude:
   - _drafts
 
 collections:
-  _Bioinformatics:
+  Bioinformatics:
     output: true
     permalink: /:collection/:path/
-  _Biology:
+  Biology:
     output: true
     permalink: /:collection/:path/
-  _Modeling:
+  Modeling:
     output: true
     permalink: /:collection/:path/
-  _Programming:
+  Programming:
     output: true
     permalink: /:collection/:path/
   pages:
