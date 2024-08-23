@@ -46,6 +46,7 @@ permalink:                /:categories/:year-:month-:day-:title:output_ext
 # Disqus comments
 # disqushandler:            sighingnow
 
+
 exclude:
   - vendor
   - _drafts
@@ -54,28 +55,41 @@ collections:
   Bioinformatics:
     output: true
     permalink: /:collection/:path/
+
   Biology:
     output: true
     permalink: /:collection/:path/
+
   Modeling:
     output: true
     permalink: /:collection/:path/
+
   Programming:
     output: true
     permalink: /:collection/:path/
-  pages:
-    output: true
-    permalink: /:collection/:path/
-  others:
+
+  About:
     output: true
     permalink: /:collection/:path/
 
-ordered_collections:
-  - Bioinformatics
-  - Biology
-  - Modeling
-  - Programming
-  - pages
+  # pages:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # posts:
+  #   output: false
+  #   permalink: /:collection/:path/
+  # others:
+  #   output: false
+  #   permalink: /:collection/:path/
+collections_dir: my_collections
+
+
+# ordered_collections:
+#   - Bioinformatics
+#   - Biology
+#   - Modeling
+#   - Programming
+#   - pages
 
 
 page_width: 800px
@@ -88,3 +102,4 @@ plugins:
   - jekyll-feed
   - jekyll-readme-index
   - jemoji
+
