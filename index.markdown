@@ -4,7 +4,7 @@
 
 layout: home
 author: Yoonmi Choi
-# cover: /assets/image/UNL_Name_RGB_2023.svg
+# cover: /assets/image/SongLabLogoN_V2.png
 ---
 
 <html>
@@ -15,10 +15,10 @@ author: Yoonmi Choi
         position: relative;
         margin: 0;
         height: 100vh;
-        background-image: url('{{ site.baseurl }}/assets/image/R-UNL_HEX.svg');
+        background-image: url('{{ site.baseurl }}/assets/image/SongLabLogoN_V2.png');
         background-repeat: no-repeat;
         background-attachment: fixed;  
-        background-size: 50%; /* Adjust this to your preferred size */
+        background-size: 30%; /* Adjust this to your preferred size */
         background-position: center 40%; /* Centers the background image */
     }
     body::before {
@@ -28,23 +28,32 @@ author: Yoonmi Choi
         left: 0;
         right: 0;
         bottom: 0;
-        background: rgba(255, 255, 255, 0.95); /* Adjust this color and opacity */
+        background: rgba(255, 255, 255, 0.93); /* Adjust this color and opacity */
         z-index: -1;
     }
+
+    .Crimson {
+        color: Crimson; /* Use color instead of font-color */
+
     </style>
     </head>
 
     </html>
 
-### About Me
 
-Hello!  
-<p>I’m Yoonmi Choi, a PhD student in the Biological Systems Engineering department at the University of Nebraska-Lincoln, where I am part of Songlab. </p>
+<h1 style="text-align: center; background-color:Crimson; color:Cornsilk; opacity: .8"> Welcome to YC's Research Note </h1> 
+<p> <b> Hello! My name is Yoonmi Choi </b>. </p>
+<p> I'm a PhD student in the Biological Systems Engineering (BSE) department at the University of Nebraska-Lincoln (<b>UNL</b>), where I am part of <span class="Crimson"> <b>Songlab</b> </span>. </p> 
 
-<p> My research focuses on the intricate interactions between plants and microbes.I use computational modeling and experimental approaches to better understand and optimize these interactions for sustainable agriculture. </p>
+<p> My research focuses on the intricate interactions between plants and microbes. <br> I use computational modeling and experimental approaches to better understand and optimize these interactions for sustainable agriculture. </p>
 
-<i> This website serves as a platform to document and share my research progress, insights, and beyond. </i>
+<hr style="border-width:2px 0 0 0; border-style:dashed; border-color:lightblue; background:none">
 
-Feel free to contact me via email at [ychoi6@huskers.unl.edu](mailto:ychoi6@huskers.unl.edu) or explore our lab’s work at [Songlab website](https://cms.unl.edu/engineering/song-lab/).
+<i> <tab> This website serves as a platform to document and share my research progress, insights, and beyond. </tab> </i> 
 
-Thank you for visiting my website!
+<hr style="border-width:2px 0 0 0; border-style:dashed; border-color:lightblue; background:none">
+
+
+
+<p> Feel free to contact me via email at <a href="mailto:ychoi6@huskers.unl.edu">ychoi6@huskers.unl.edu</a> or explore our lab’s work at <a href="https://cms.unl.edu/engineering/song-lab/">Songlab website</a>. </p>
+
